@@ -1,0 +1,24 @@
+soru1=str(input("İlk Soruyu Giriniz: "))
+soru2=str(input("İkinci Soruyu Giriniz: "))
+soru3=str(input("Üçüncü Soruyu Giriniz: "))
+soru4=str(input("Dördüncü Soruyu Giriniz: "))
+soru5=str(input("Beşinci Soruyu Giriniz: ")) 
+"Kendiniz daha fazla soru ve cevap ekleyebilirsiniz."
+
+print("---------------------------------ATAKHANN FORM EKRANI---------------------------------")
+cevap1=input(soru1)
+cevap2=input(soru2)
+cevap3=input(soru3)
+cevap4=input(soru4)
+cevap5=input(soru5)
+
+print("---------------------------------ATAKHANN FORM SONUCU---------------------------------")
+print("Soru:",soru1,"|","Cevap:",cevap1)
+print("Soru:",soru2,"|","Cevap:",cevap2)
+print("Soru:",soru3,"|","Cevap:",cevap3)
+print("Soru:",soru4,"|","Cevap:",cevap4)
+print("Soru:",soru5,"|","Cevap:",cevap5)
+
+
+
+"Kod AtakhaNN'a aittir."
