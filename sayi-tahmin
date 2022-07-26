@@ -1,0 +1,17 @@
+import random
+
+while("true"):
+    sayi=random.randint(1,10)
+    hak=0
+
+    print("Hey Aklımdan 1-10 Arası Bir Sayı Tuttum Hadi Tahmin Et!")
+    tahmin=int(input("Tahmin: "))
+
+    if tahmin==sayi:
+        print("Doğru Bildin!")
+        break
+
+    else:
+        print("Yanlış Bildin!")
+
+"Kod AtakhaNN'a aittir."
