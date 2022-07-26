@@ -1,0 +1,5 @@
+sayi=int(input("Bir Sayı Giriniz: "))
+fak=1
+for atakhann in range(1, sayi+1):
+    fak=fak*atakhann
+print(fak)
