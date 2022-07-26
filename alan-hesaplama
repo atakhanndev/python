@@ -1,0 +1,34 @@
+sozluk={"Kare":1, "Dikdörtgen":2,"Üçgen":3, "Durdurma:":0}
+print(sozluk)
+
+while("true"):
+    islem=int(input("İşlem Seçiniz: "))
+
+    if islem==1:
+        print("|-----------KARE ALAN HESAPLAMA-----------|")
+        karekenar=int(input("Kenar Uzunluğu: "))
+        karealan=karekenar*4
+        print("Kenar Uzunluğu:",karealan)
+
+    elif islem==2:
+        print("|-----------DİKDÖRTGEN ALAN HESAPLAMA-----------|")
+        uzunkenar=int(input("Uzun Kenar: "))
+        kisakenar=int(input("Kısa Kenar: "))
+        dikdortgenalan=uzunkenar*kisakenar
+        print(dikdortgenalan)
+
+    elif islem==3:
+        print("|-----------ÜÇGEN ALAN HESAPLAMA-----------|")
+        tabanuzunluk=int(input("Taban Uzunluğu: "))
+        yukseklik=int(input("Yükseklik: "))
+        ucgenalan=(tabanuzunluk*yukseklik)/2
+        print(ucgenalan)
+
+    elif islem==0:
+        print("Program Durdu!")
+        break
+
+    else:
+        print("Hata Oluştu!")
+
+"Kod AtakhaNN'a aittir."
