@@ -1,0 +1,28 @@
+while ("true"):
+    print("|-------------------------------------------------ATAKHANN HESAP MAKİNESİ-------------------------------------------------|")
+    sozluk={"Toplama:":1, "Çıkarma:":2,"Çarpma:":3,"Bölme:":4, "Durdurma:":0}
+    print(sozluk)
+    s1=int(input("Birinci Sayıyı Giriniz: "))
+    s2=int(input("İkinci Sayıyı Giriniz: "))
+    islem=int(input("İşleminizi Seçiniz: "))
+
+    if islem==1:
+        sonuc=s1+s2
+        print("Sonuç: ",sonuc)
+    elif islem==2:
+        sonuc=s1-s2
+        print("Sonuç: ",sonuc)
+    elif islem==3:
+        sonuc=s1*s2
+        print("Sonuç: ",sonuc)
+    elif islem==4:
+        sonuc=s1/s2
+        print("Sonuç: ",sonuc)
+    elif islem==0:
+        break
+        print("Hesap Makinesi Durdu!")
+    else:
+        print("Hata Oluştu!")
+        
+
+"Kod AtakhaNN#9614'a aittir."
