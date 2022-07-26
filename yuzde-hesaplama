@@ -5,4 +5,4 @@ sonuc=(sayi*yüzde)/100
 
 print(sayi,"Sayısının","Yüzde",+yüzde,"=",sonuc)
 
-"Kod Arena(#AtakhaNN#9614)'ya aittir."
+"Kod AtakhaNN'a aittir."
