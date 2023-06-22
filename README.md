@@ -2,7 +2,7 @@
 Python Projelerim Github repositories'ına hoşgeldiniz.
 
 ## AtakhaNN
-- [Discord'um](https://discord.com/users/396935680653262849) 
+- [Discord'um](https://discord.com/users/1069373596750839918) 
 - [Discord Sunucum](https://discord.gg/DfBcJv2CUj)
 
 ## Kurulum
